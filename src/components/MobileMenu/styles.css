@@ -1,0 +1,86 @@
+.mobile-menu {
+	position: fixed;
+	top: 0;
+
+	width: 100%;
+	height: 100vh;
+	padding: 30px 20px;
+
+	background-color: var(--clr-black);
+}
+
+.mobile-menu .btn-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-bottom: 58px;
+}
+
+.mobile-menu .logo {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.2;
+	color: var(--clr-white);
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+}
+
+.link {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--clr-white);
+}
+
+.link.current {
+	font-weight: 700;
+}
+
+.link:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.link svg {
+	margin-left: 10px;
+}
+
+.mobile-menu svg * {
+	fill: var(--clr-white);
+}
+
+.icons {
+	position: fixed;
+	bottom: 30px;
+
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+}
+
+.icons .profile,
+.icons .basket {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 31px;
+	height: 31px;
+
+	opacity: 0.75;
+	border: 1px solid var(--clr-white);
+	border-radius: 50%;
+}
+
+.icons .profile {
+	margin-right: 36px;
+}

@@ -1,0 +1,133 @@
+.form {
+	padding: 30px 20px 60px;
+}
+
+.input-wrapper:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.label {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.67;
+
+	color: var(--clr-placeholder);
+}
+
+.form-input {
+	width: 100%;
+	padding: 0 0 11px;
+
+	border: none;
+	border-bottom: 1px solid var(--clr-placeholder);
+	outline: none;
+
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.43;
+	color: var(--clr-black);
+
+	caret-color: var(--clr-placeholder);
+}
+
+.form-input::placeholder {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.43;
+	color: var(--clr-placeholder);
+}
+
+.radio-title {
+	margin-top: 25px;
+	margin-bottom: 10px;
+
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.43;
+	color: var(--clr-black);
+}
+
+.form-submit {
+	position: relative;
+
+	width: 100%;
+	padding: 10px 0 10px;
+
+	border: none;
+	background-color: var(--clr-black);
+	box-shadow: 0px 0px 8.96262px rgba(0, 0, 0, 0.12);
+	border-radius: 3.20093px;
+
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12.9495px;
+	line-height: 1.46;
+	text-align: center;
+	color: var(--clr-white);
+
+	cursor: pointer;
+}
+
+.letter-img {
+	position: absolute;
+
+	top: 20px;
+	right: 125px;
+
+	width: 113px;
+}
+
+@media screen and (min-width: 1240px) {
+	.form {
+		flex: 1.5;
+		padding: 60px 40px 150px;
+	}
+
+	.form-submit {
+		font-size: 16px;
+		width: 214px;
+		padding: 15px 48px;
+		float: right;
+	}
+
+	.user-inputs {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.input-wrapper {
+		width: 46%;
+	}
+
+	.input-wrapper:nth-child(1),
+	.input-wrapper:nth-child(3) {
+		margin-right: 39px;
+	}
+
+	.message {
+		width: 100%;
+		margin-bottom: 45px;
+		margin-top: 45px;
+	}
+
+	.radio-title {
+		margin-top: 5px;
+		margin-bottom: 14px;
+	}
+
+	.letter-img {
+		width: 100%;
+		top: 40px;
+		right: 80px;
+	}
+}

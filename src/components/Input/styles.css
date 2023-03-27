@@ -1,0 +1,40 @@
+.input-wrapper:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.label {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.67;
+
+	color: var(--clr-placeholder);
+}
+
+.form-input {
+	width: 100%;
+	padding: 0 0 11px;
+
+	border: none;
+	/* border-bottom: 1px solid var(--clr-placeholder); */
+	outline: none;
+
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.43;
+	color: var(--clr-black);
+
+	caret-color: var(--clr-placeholder);
+}
+
+.form-input::placeholder {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.43;
+	color: var(--clr-placeholder);
+}
